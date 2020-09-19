@@ -62,6 +62,7 @@ class CfgWeapons {
     };
 
     class sfp_ak5_base: Rifle_Base_F {
+        magazineWell[] += {"CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
         class Single: Mode_SemiAuto {
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
@@ -264,16 +265,6 @@ class CfgWeapons {
         };
     };
 
-    class sfp_cbj_ms: sfp_cbj_ms_base {
-        scope = 0;
-    };
-    class sfp_cbj_ms_aimpoint: sfp_cbj_ms_base {
-        scope = 0;
-    };
-    class sfp_cbj_ms_aimpoint_sd: sfp_cbj_ms_base {
-        scope = 0;
-    };
-
     class sfp_g36c_base: Rifle_Base_F {
         class WeaponSlotsInfo {};
     };
@@ -307,9 +298,9 @@ class CfgWeapons {
     };
 
     class sfp_pskott68: launch_RPG32_F {
-        magazineWell[] = {""};
+        magazineWell[] = {};
     };
     class sfp_pskott86: launch_RPG32_F {
-        magazineWell[] = {""};
+        magazineWell[] = {};
     };
 };

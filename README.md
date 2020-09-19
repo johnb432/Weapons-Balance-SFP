@@ -8,6 +8,8 @@
             - Changed weight from 5.76kg to 5.85kg
         - Ak 4D:
             - Changed weight from 4.26kg to 4.45kg
+        - AK5s:
+            - Added CBA Magwell for 150Rnd 5.56 mags
         - Ak 5 M203:
             - Changed weight from 5.26kg to 5.40kg
         - Ak 5B:
@@ -33,9 +35,15 @@
         - Psg 90 & Camo:
             - Changed weight from 5.99kg to 6.89kg
 
+- Weight balancing:
+    - SFP:
+        - All (3x) 49Rnd 7.62 belts from 1.20kg to 1.15kg
+        - 100Rnd 7.62 belt from 1.54kg to 1.47kg
+        - Both 200Rnd 5.56 M249 belts from 2.36kg to 2.34kg
+
 - Models/Icons/Names:
     - SFP:
-        - Changed names of 12 Gauge 8Rnd buckshot and slugs
+        - Changed names and removed models of 12 Gauge 8Rnd buckshot and slugs
         - Flashlight and Image intensifier now display "PEWPEWPEW" in arsenal
 
 # Changelog for Weapons balance 29.7.2020
@@ -79,6 +87,4 @@
 
 - Models/Icons/Names:
     - SFP:
-        - Added models to 30Rnd 9mm MP5 mags
-        - Added models to 8Rnd shotgun shells
         - Fixed the ZEN-SFP issue for SFP aircraft (specifically: Saab 340 had been set to the unknown side and ZEN does not support that)
