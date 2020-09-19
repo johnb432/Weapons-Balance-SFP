@@ -8,6 +8,12 @@ class CfgMagazines {
     class sfp_50Rnd_762x51_ksp58: 150Rnd_762x51_Box {
         mass = 25.41;
     };
+    class sfp_50Rnd_762x51_ksp58_ap: sfp_50Rnd_762x51_ksp58 {
+        mass = 25.41;
+    };
+    class sfp_50Rnd_762x51_ksp58_irTracer: sfp_50Rnd_762x51_ksp58 {
+        mass = 25.41;
+    };
     class sfp_100Rnd_762x51_ksp58: sfp_50Rnd_762x51_ksp58 {
         mass = 32.34;
     };
